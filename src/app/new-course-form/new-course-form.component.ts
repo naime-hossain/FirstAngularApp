@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 })
 export class NewCourseFormComponent {
   form;
+  topics;
 
   constructor(fb: FormBuilder){
     this.form = fb.group({
